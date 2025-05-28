@@ -1,0 +1,21 @@
+{
+  "name": "home-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenkiet/home-server.git"
+  },
+  "keywords": [
+    "script",
+    "tool",
+    "homeserver"
+  ],
+  "author": "ZenKiet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenkiet/home-server/issues"
+  },
+  "homepage": "https://github.com/zenkiet/home-server#readme"
+}

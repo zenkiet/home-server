@@ -1,0 +1,28 @@
+components:
+  edge-repositories:
+    name: Edge Repositories
+    description: "Edge Repositories"
+    category: "system"
+    priority: 1
+    dependencies: []
+
+  fish-shell:
+    name: Fish Shell
+    description: "Fish Shell"
+    category: "shell"
+    priority: 2
+    dependencies: []
+
+  nano-editor:
+    name: Nano Editor
+    description: "Nano Editor"
+    category: "text-editor"
+    priority: 3
+    dependencies: []
+
+  dropbear-ssh:
+    name: Dropbear SSH
+    description: "Dropbear SSH"
+    category: "ssh-server"
+    priority: 4
+    dependencies: []
