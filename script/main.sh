@@ -84,9 +84,6 @@ handle_menu() {
     local selected=0
     local menu_size=${#menu_items[@]}
 
-    # Hide cursor
-    tput civis
-
     while true; do
         show_menu
 
@@ -107,7 +104,6 @@ handle_menu() {
                 ;;
             'q'|'Q') # Quit
                 print_warning "Installation cancelled by user"
-                tput cnorm # Show cursor
                 exit 0
                 ;;
             $'\x1B') # Escape sequence
@@ -131,9 +127,6 @@ handle_menu() {
                 ;;
         esac
     done
-
-    # Show cursor
-    tput cnorm
 }
 
 # Function to execute selected items
